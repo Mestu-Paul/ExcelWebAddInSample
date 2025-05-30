@@ -19,14 +19,12 @@
   <DisplayName DefaultValue="ExcelWebAddInSample" />
   <Description DefaultValue="ExcelWebAddInSample"/>
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="http://127.0.0.1:5500/ExcelWebAddInSampleWeb/Images/Button32x32.png" />
-
-  <SupportUrl DefaultValue="http://www.contoso.com" />
+  <IconUrl DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb/Images/Button32x32.png" />
+  <HighResolutionIconUrl DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb/Images/icon64x64.png"/>
+  <SupportUrl DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
-    <AppDomain>AppDomain1</AppDomain>
-    <AppDomain>AppDomain2</AppDomain>
-    <AppDomain>AppDomain3</AppDomain>
+    <AppDomain>https://mestu-paul.github.io</AppDomain>
   </AppDomains>
   <!--End Basic Settings. -->
   
@@ -34,7 +32,7 @@
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="http://127.0.0.1:5500/ExcelWebAddInSampleWeb/Home/Home.html" />
+    <SourceLocation DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb/Home/Home.html" />
     <RequestedWidth>400</RequestedWidth>
     <RequestedHeight>400</RequestedHeight>
   </DefaultSettings>
