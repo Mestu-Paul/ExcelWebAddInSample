@@ -20,8 +20,8 @@
   <Description DefaultValue="ExcelWebAddInSample"/>
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
   <IconUrl DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb/Images/Button32x32.png" />
-  <HighResolutionIconUrl DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb/Images/icon64x64.png"/>
-  <SupportUrl DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb" />
+  <HighResolutionIconUrl DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb/Images/Button64x64.png"/>
+  <SupportUrl DefaultValue="https://mestu-paul.github.io/ExcelWebAddInSample/ExcelWebAddInSampleWeb/support.html" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
     <AppDomain>https://mestu-paul.github.io</AppDomain>
